@@ -12,4 +12,5 @@
 // client - request server
 // server -  response for the incoming network calls
 
-// First calls DNS -> ask for IP address
+// First calls DNS -> ask for IP address(given by cloud provider)
+
