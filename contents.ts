@@ -32,3 +32,15 @@
 
 // -6
 // Latency and Throughput
+// Two Imp measures of the performance of the system
+// Latency - how long for data to get from one point to another point in system
+// Latency - time from client -  server, server client
+// Rule of thumb  - 1MB
+    // RAM - 0.25 MS
+    // SSD - 1 MS
+    // Transfer 1MB 1Gbps - 10 ms
+    // Reading 1MB from HDD - 20 ms
+    // Round trip - 150 MS
+
+// Throughput - number of operations that a system can handle properly per tume unit
+// Requests per second  - RPS
