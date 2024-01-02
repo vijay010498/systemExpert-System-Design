@@ -153,4 +153,58 @@
 // consistent hashing
 
 
+// 12 - Relational Databases
+// Tabular
+// ACID Transaction
+    // Atomicity - either succeed or fail
+    // Consistency - Abide all the database rules
+    // Isolation -
+    // Durability -
 
+
+// 13 - Key value stores
+// flexible NoSQL database often used for caching and dynamic configuration
+
+// 14 - Specialized Storage Paradigms
+
+// Blob Store - GCS, S3
+// Time series - InfluxDB, Prometheus
+// GraphDB - Neptune, Neo4j
+// SpatialDB - Quadtree
+
+// Time series - Mainly used for time series data
+// Like every second, every millisecond
+// Like Computing averages,
+
+
+
+// 15 - Replication and sharding
+// Database
+// Main Database
+// Replica
+// Replica takes over when main goes down
+// Replica should be up to date with main database
+
+// sharding
+// split up database rather than replicating
+// main database into bunch of shards
+// how and what to shard ?
+// 1. based on client's region
+// 2. Based on type of data being stored - e.b user data in one shard, payments data gets stored in another shard
+// 3. based on hash of a column - only for structured data
+
+// Hot spot - workload might spread unevenly
+// avoid hot spot with optimal hashing functions
+
+
+// 16 Leader Election
+// Nodes in cluster elect leader amongst them using algorithm
+
+// Consensus algorithm - complex algo have multiple entities agree on a single data value
+// popular consensus algos - Paxos, Raft
+
+// paxos
+
+
+// 17 peer-to-peer network
+//
