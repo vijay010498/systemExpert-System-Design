@@ -207,4 +207,77 @@
 
 
 // 17 peer-to-peer network
+// big file into small chunks
+// send chunks to peers
+// get chunks from peers
+
+// 18 - Polling and streaming
+// polling - fetching a resource or piece of data at an interval
+
+// streaming - act of continuously getting a feed of information from a server
+// by keeping an open connection b/w two machines or processes
+// typically long-lived connection is done with sockets
+
+
+// 19 - Configuration
+// mostly large scale systems rely on configuration
+// JSON
+// YAML
+// Key-value store
+// Configuration
+
+// 20 - Rate Limiting
+// amount of operations that can be performed at a given time
+
+
+// 21 - Logging and monitoring
+// Logging
+// Monitoring - System's key metrics, aggregating them in human-readable charts
+// Alerting - notified when critical system issues occur
+
+
+// 22-  Publish and subscribe
+// very important in distributed systems
+// publishers and subscribers
+// special topics
+
+ // pub/sub comes with powerful guarantees  like
+// at-least-once delivery, ordering of messages, replayability
+
+
+// 23 -  MapReduce
+// Programming model for processing and generating big data sets
+// with a parallel, distributed algorithm on a cluster
+
+
+// MapReduce
+// map step - chunks of data into key-value pair
+// shuffle step - same key are routed to the same machine in the final step
+// Reduce step - shuffled key-value pair transforms into more meaningful data
+
+
+// 25 - API design
+
+// separate from systems design
+// sibling of systems design
+// API design is very important
+// any product has API to back them / multiple APIs
+// product sells access to API
+
+
+// key -terms
+// Pagination - for optimal
+// CRUD operations - Create, Read, Update, Delete
+
+// API goes to rigorous design and review process
+// Design Twitter - system design
+// Design Twitter API - API design
+
+// System design - diagrams, tables, etc
+// API design - write outline, entity, resources
+
+// API Definitation
+// Entite
 //
+// swagger - interface definitation language
+// JSON or in YAML
